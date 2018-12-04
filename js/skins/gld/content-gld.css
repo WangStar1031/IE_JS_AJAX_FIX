@@ -1,0 +1,14 @@
+html, body {
+    width: 90%;
+    height: 90%;
+    cursor: text;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: normal;
+    /*padding: 2px;*/
+    margin: 13px 0 -1px -1px;
+    background-color: #FFFFFD;
+    border: 1px dotted #000000;
+}

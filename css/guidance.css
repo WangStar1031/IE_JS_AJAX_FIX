@@ -1,0 +1,158 @@
+
+#content{
+    xmargin:40px 0 0 0;
+    }
+
+
+.section-list-wrapper{
+    float:left;
+    width:100%;
+    margin:6px 0 0 -6px;
+    padding:0;
+    }
+
+
+.section-list ul {
+    list-style:dot !important;
+    }
+
+
+.section-text ul {
+    list-style:dot !important;
+    }
+
+
+.section-text ol {
+    list-style:decimal !important;
+    }
+
+
+.section-list LI {
+    color: #550055 !important;
+    width: 90%;
+    line-height: 1.1em;
+    margin: 0 0 13px 1.7em;
+ 
+    }
+
+.section-list LI a {
+    font-size: 0.9em;
+    color: #550055 !important;
+    text-decoration:none;
+    }
+
+
+.section-list LI a:visited {
+
+   font-size: 1em;
+   color: #550055 !important;
+   text-decoration:none !important;
+    }
+
+
+.section-list LI a:hover {
+   color: #990099 !important;
+   text-decoration:underline !important;
+   }
+
+
+.section-list {
+    list-style-type: decimal !important;
+    width: 100%;
+    float: left;
+    margin-top:0;
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 10px;
+    
+}
+
+.section-list.one-section-only{
+     column-count: 1;
+}
+
+
+article {
+    width:100%;
+    float:left;
+    margin:0;
+    }
+
+
+.article-title{
+    float:left;
+    width:100%;
+    }
+
+#metadata{
+    float:left;
+    width:100%;
+    position:relative;
+    border-top:6px solid #660066;
+    border-bottom:1px solid #660066;
+    padding-top:24px;
+    padding-bottom:24px;
+    padding-left:18px;
+    position:relative;
+    margin-top:0;
+    background-color:#f3f3f3;
+    }
+
+#metadata  LI{
+    float:left;
+    color:#444444;
+    width:100%;
+    margin-bottom:0em;
+    font-size:0.9em;
+    }
+
+#metadata  LI span{
+    position:relative;
+    top:-6px;
+    }
+
+.current-page {
+    text-decoration: underline !important;
+    font-weight:500 !important;
+    display:block;
+    line-height:1.2em;
+    }
+
+#guideid{
+    width:100%;
+    margin-top:32px;
+    }
+
+.article-body{
+    width: 72%;
+    margin-right: 7%;
+    margin-top:-12px;
+    }
+
+aside {
+    position:relative;
+    }
+
+.article-wrapper{
+    margin-top:42px
+    }
+
+.article-wrapper aside {
+    position:relative;
+    left:26px;
+    }
+
+.aside-button-wrapper {
+    float:left;
+    }
+
+
+.aside-button-wrapper {
+    float:left;
+    }
+
+.aside-button-wrapper a span {font-size:20px !important}
+

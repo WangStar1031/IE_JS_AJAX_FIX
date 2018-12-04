@@ -1,0 +1,34 @@
+
+#feedback-banner {
+  background-color: #d5e8f3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+@media (max-width: 640px) {
+    #feedback-banner {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+  }
+}
+
+#feedback-banner h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 990px;
+    margin: 0 auto;
+
+}
+
+#feedback-box input {
+  width: 95%;
+}
+
+
+#feedback-banner h4.heading-small {
+    font-size: 17px;
+}
+
+

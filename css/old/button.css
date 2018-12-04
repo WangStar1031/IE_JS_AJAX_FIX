@@ -1,0 +1,201 @@
+
+.button,button {
+    background-color: #a03a88;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+.button-white {
+    background-color:white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration:none;
+    border:1px solid #a03a88;
+}
+
+.button-green {
+   background-color: #00823b;
+    border: none;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    /* border: 1px solid #a03a88; */
+    color: white;
+    float:right;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.button  a {
+     color:white;
+     text-decoration:none;
+     font-weight:600;
+     }
+
+.button-white a{
+    color: #a03a88;
+    }
+
+.button-row{
+    margin:24px 0 0 0;
+    text-align:right;
+    }
+
+.button:hover{
+    background-color:#26002E
+    }
+
+
+.button-div{float:left;width:39%;}
+
+.button-div button{
+    background-color:#a03a88 !important
+    }
+
+.button-panel {
+  margin-top:42px;
+  text-align:right
+}
+
+.button-panel .button{ 
+    font-size:1.6em;
+    font-weight:500;
+    } 
+
+
+
+.previous-next-navigation {
+    position: relative;
+    overflow: hidden;
+    margin-top: 60px;
+    width: 100%;
+    padding-left: 0
+}
+
+.previous-next-navigation li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.11111;
+    font-weight: 400;
+    text-transform: none;
+    font-size-adjust: 0.5;
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    float: left
+}
+
+@media (min-width: 641px) {
+    .previous-next-navigation li {
+        font-size: 27px;
+        line-height: 1.11111
+    }
+}
+
+.previous-next-navigation li.next {
+    float: right;
+    text-align: right
+}
+
+.previous-next-navigation li.next a {
+    padding: 15px 35px 15px 0
+}
+
+.previous-next-navigation li.next a:before {
+    background: transparent url(/images/arrow-sprite.png) no-repeat -102px -11px;
+    margin: -4px -32px 0 0;
+    display: block;
+    float: right;
+    width: 30px;
+    height: 38px;
+    content: " "
+}
+
+.previous-next-navigation li.previous a {
+    padding: 15px 0 15px 35px
+}
+
+.previous-next-navigation li.previous a:before {
+    background: transparent url(/images/arrow-sprite.png) no-repeat -20px -11px;
+    margin: -4px 0 0 -32px;
+    display: block;
+    float: left;
+    width: 30px;
+    height: 38px;
+    content: " "
+}
+
+.previous-next-navigation li a {
+    display: block;
+    text-decoration: none
+}
+
+.previous-next-navigation li a span {
+    display: block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.25;
+    font-weight: 400;
+    text-transform: none;
+    font-size-adjust: 0.5;
+    padding: 6px 0
+}
+
+@media (min-width: 641px) {
+    .previous-next-navigation li a span {
+        font-size: 14px;
+        line-height: 1.42857
+    }
+}
+
+.previous-next-navigation li a:focus .page-numbers, .previous-next-navigation li a:hover .page-numbers {
+    text-decoration: underline
+}
+
+.previous-next-navigation li a:hover {
+    background: #f8f8f8
+}
+
+.previous-next-navigation li a:active {
+    background: #dee0e2
+}
+
+@media (min-width: 641px) {
+    .previous-next-navigation li .visuallyhidden {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        line-height: 1.11111;
+        font-weight: 400;
+        text-transform: none;
+        font-size-adjust: 0.5;
+        display: inline-block;
+        position: static
+    }
+}
+
+@media (min-width: 641px) and (min-width: 641px) {
+    .previous-next-navigation li .visuallyhidden {
+        font-size: 27px;
+        line-height: 1.11111
+    }
+}

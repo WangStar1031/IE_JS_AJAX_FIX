@@ -1,0 +1,266 @@
+/*!  
+ * SmartWizard v4.x
+ * jQuery Wizard Plugin
+ * http://www.techlaboratory.net/smartwizard
+ *
+ * Created by Dipu Raj
+ * http://dipuraj.me
+ *
+ * Licensed under the terms of MIT License
+ * https://github.com/techlab/SmartWizard/blob/master/LICENSE
+ */
+
+/* SmartWizard Theme: Dots */
+.sw-theme-arrows{
+}
+.sw-theme-arrows .sw-container {
+    xmin-height: 300px;
+    width: 100%;
+    float: left;
+}
+.sw-theme-arrows .step-content {
+    padding: 10px 0;
+    border: none;
+    background-color: #FFF;
+    text-align: left;
+}
+.sw-theme-arrows .sw-toolbar{
+    background: #fff;
+    border-radius: 0 !important;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0 !important;
+    top:30px;
+}
+.sw-theme-arrows .sw-toolbar-top{
+    border-bottom-color: #ddd !important;
+}
+.sw-theme-arrows .sw-toolbar-bottom{
+    border-top-color: #000 !important;
+    border-bottom-color: none !important;
+    width:60%;
+    overflow: visible;
+}
+
+.navbar-btn {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.sw-theme-arrows > ul.step-anchor{
+    position: relative;
+    background: #fff;
+    display: block;
+    border: 0px solid #ccc !important;
+    list-style: none;
+}
+.sw-theme-arrows > ul.step-anchor:before {
+    content: " ";
+    position: absolute;
+    top: 61px;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #f3f3f3;
+    border-radius: 3px;
+    z-order: 0;
+    z-index: 95;
+}
+.sw-theme-arrows > ul.step-anchor > li{
+    border: none;
+}
+/* Anchors styles */
+.sw-theme-arrows > ul.step-anchor > li > a{
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    background: transparent;
+    border: none;
+    color: #ccc;
+    text-decoration: none;
+    outline-style:none;
+    z-index: 96;
+    display: block;
+}
+.sw-theme-arrows > ul.step-anchor > li > a:before {
+    content: ' ';
+    position: absolute;
+    bottom: 2px;
+    left: 40%;
+    margin-top: 10px;
+    display: block;
+    border-radius: 50%;
+    color: #428bca;
+    background: #f5f5f5;
+    border: none;
+    width: 32px;
+    height: 32px;
+    text-decoration: none;
+    z-index: 98;
+    top: 36px;    
+}
+
+.sw-theme-arrows > ul.step-anchor > li.active > a:before{
+    background: #C24592 ;
+}
+
+.sw-theme-arrows > ul.step-anchor > li.done > a:before{
+    --background: green;
+}
+
+
+.sw-theme-dots > ul.step-anchor > li > a:after  {
+    content: ' ';
+    position: relative;
+    left: 43%;
+    margin-top: 10px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #f5f5f5;
+    border-radius: 50%;
+    z-index: 99;
+}
+.sw-theme-dots > ul.step-anchor > li > a:hover  {
+    color: #ccc;
+    background: transparent;
+}
+.sw-theme-dots > ul.step-anchor > li > a:focus{
+    color: #ccc;
+    border: none;
+} 
+.sw-theme-dots > ul.step-anchor > li.clickable > a:hover {
+    color: #999;
+}
+/* Active anchors */
+.sw-theme-dots > ul.step-anchor > li.active > a{
+    color: #5bc0de;
+}
+.sw-theme-arrows > ul.step-anchor > li.active > a:hover{
+    border: none;
+}
+.sw-theme-arrows > ul.step-anchor > li.active > a:after {
+    xbackground: #5bc0de;
+    xbackground:#C24592;
+}
+/* Done anchors */
+.sw-theme-arrows > ul.step-anchor > li.done > a{
+    color: #5cb85c;
+}
+.sw-theme-arrows > ul.step-anchor > li.done > a:after {
+    xbackground: #5cb85c;
+}
+/* Danger anchors */
+.sw-theme-arrows > ul.step-anchor > li.danger > a {
+    color: #d9534f;
+}
+.sw-theme-arrows > ul.step-anchor > li.danger > a:after {
+    background: #d9534f;
+}
+
+.sw-theme-arrows > ul.step-anchor > li.disabled > a, .sw-theme-dots > ul.step-anchor > li.disabled > a:hover {
+    color: #eee !important;
+}
+.sw-theme-arrows > ul.step-anchor > li.disabled > a:after {
+    background: #eee;
+}
+
+/* Responsive CSS */
+@media screen and (max-width: 768px) {
+    .sw-theme-arrows > ul.step-anchor:before {
+        top: 0;
+        bottom: 0;
+        left: 10px;
+        width: 5px;
+        height: 100%;
+        background-color: #f5f5f5;
+        display: block;
+        margin-right: 10px;
+    }
+    
+    .sw-theme-arrows > ul.step-anchor > li{
+        margin-left: 19px;
+        -display: block;
+        -clear: both;
+    }
+    
+    .sw-theme-arrows > ul.step-anchor > li > a{
+        text-align: left;
+        margin-left: 0;
+        display: block;
+    }
+    
+    .sw-theme-arrows > ul.step-anchor > li > a:before {
+        top: 5px;
+        left: -23px;
+        margin-right: 10px;
+        display: block;
+    }
+    .sw-theme-arrows > ul.step-anchor > li > a:after  {
+        top: -38px;
+        left: -31px;
+        margin-right: 10px;
+        display: block;
+    }
+}
+
+/* Loader Animation
+ * Courtesy: https://codepen.io/emjay/pen/VjVBRq
+ */
+.sw-theme-dots > ul.step-anchor > li.loading > a:before{
+    -webkit-animation: help-bubble-pulse 1.5s linear infinite;
+    -moz-animation:    help-bubble-pulse 1.5s linear infinite;
+    -o-animation:      help-bubble-pulse 1.5s linear infinite;
+    animation:         help-bubble-pulse 1.5s linear infinite;   
+}
+.sw-theme-dots > ul.step-anchor > li.loading > a:after{
+    background-color: #ccc;
+    opacity: 1;
+    -webkit-animation: help-bubble-pulse 1.5s linear infinite;
+    -moz-animation:    help-bubble-pulse 1.5s linear infinite;
+    -o-animation:      help-bubble-pulse 1.5s linear infinite;
+    animation:         help-bubble-pulse 1.5s linear infinite;
+}
+
+@keyframes help-bubble-pulse {
+	0% {
+		transform: scale(1);
+		opacity: .75
+	}
+
+	25% {
+		transform: scale(1);
+		opacity: .75
+	}
+
+	100% {
+		transform: scale(2.5);
+		opacity: 0
+	}
+}
+
+
+
+.sw-theme-default {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+
+.sw-theme-arrows > ul.step-anchor > li:last-child > a:before {
+    border-radius: 0%;
+    width:36px;
+    height:36px;
+    margin-top: 4px;
+}
+.sw-theme-arrows > ul.step-anchor > li.done > a:before {
+    background:url(../../images/done.png) 0 0 no-repeat;
+    background-size: cover;
+}
+.sw-theme-arrows > ul.step-anchor > li.si-step.si-done > a:before {
+    background:url(../../images/si-done.png) 0 0 no-repeat;
+    background-size: cover;
+}
+.sw-theme-arrows > ul.step-anchor > li.active-done > a:before {
+    background:url(../../images/active-done.png) 0 0 no-repeat;
+    background-size: cover;
+}

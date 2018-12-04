@@ -1,0 +1,212 @@
+
+main.browse .browse-panes {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.js-enabled .root-index .welcome-block form#header-search label {
+    float: none;
+    position: absolute;
+    left: 0;
+    top: 1px;
+    z-index: 1;
+    width: 100%;
+    margin-right: 0;
+}
+
+.js-enabled .root-index .welcome-block form#header-search input#search-main {
+    width: 86%;
+    width: -webkit-calc(100% - 37px);
+    width: calc(100% - 37px);
+}
+
+
+
+.form-label .error-message,
+.form-label-bold .error-message {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+
+
+
+#share {
+    background-color: #DEE0E2;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+#share .form-control {
+    width: 90%;
+}
+
+#share .form-group {
+    margin-bottom: 20px;
+}
+
+#share h2 {
+    margin-top: 0px;
+}
+
+
+.large-divider {
+    display: inline-block;
+    margin: 10px 0 20px 0;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#guideid .share-button {
+    float: right;
+    margin-top: 20px;
+}
+
+#global-breadcrumb .share-button-box {
+    margin: -30px 0 0 0;
+    float: right;
+}
+
+
+.security-classification {
+    margin: 15px;
+}
+
+.security-classification p {
+    margin-bottom: 0;
+    color: #0b0c0c;
+}
+
+.official {
+    color: #99D9EA;
+    font-weight: bold;
+}
+
+.official-sensitive {
+    color: #B5E61D;
+    font-weight: bold;
+}
+
+.black-text {
+    font-weight: normal;
+    min-width: 25%;
+    display: inline-block;
+    color: #6F777B;
+}
+
+hr {
+    color: #BFC1C3;
+}
+
+.side-box {
+    margin: 30px 15px;
+}
+
+.side-box p {
+    font-size: 16px;
+}
+
+.side-box h1 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+ul.related-list li {
+    margin: 10px 0;
+}
+
+
+
+.modal-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: none;
+    opacity: 0.9;
+    z-index: 1040;
+}
+
+.contact-box {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.contact-name, .contact-team {
+    font-weight: bold;
+}
+
+.content-links ul li a {
+    font-size: 14px;
+}
+
+article.document p a:link {
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+
+.document h1, .document h2, .document h3, .document h4 {
+    margin-top: 1.875em;
+    margin-bottom: 0.83333em;
+}
+
+.document td h1, .document td h2, .document td h3, .document td h4 {
+    margin-top: 0em;
+}
+
+.document img{
+    width:100%;
+}
+
+li.list_item {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 0 0 0 20px;
+    text-indent: -2em;
+    margin-left: 1em;
+    margin-bottom: 0.7em;
+}
+
+h4 b {
+    font-weight: bold;
+}
+
+h1.header-title{
+    font-size: 24px;line-height: 1em;margin-top:5px;font-weight:400;float: left;color: #fff;
+}
+
+
+.home-bullets li{
+    font-size:16px;
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin-bottom:8px;
+    padding-left:15px;
+    text-indent:-17px;
+    margin-left:10px;
+    margin-right:30px;
+}
+
+.home-bullets li span{
+left:13px;
+position: relative
+}
+
+.about-gld{
+    margin:90px 0;
+    display: block;
+}
+
+
+li.muted{
+    display: block;padding: 5px 0;border-bottom: 1px solid #ddd;color:#aaa; background-color:#fcfcfc;
+}
+
+li.muted span{
+    font-size:11px;padding-left:6px;color:#888;
+}

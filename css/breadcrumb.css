@@ -1,0 +1,156 @@
+
+body.search #global-breadcrumb {
+    display: none
+}
+
+#global-breadcrumbs ol:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+#global-breadcrumbs {
+    padding-top: 045em;
+    padding-bottom: 0.45em;
+    background-color:#ffffff;
+}
+
+#global-breadcrumbs li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.7em;
+    line-height: 1.14286;
+    font-weight: 400;
+    text-transform: none;
+    font-size-adjust: 0.5;
+    float: left;
+    background-image: url(https://assets.publishing.service.gov.uk/static/separator-871ef28abf1920b1b8050934ebec4366c18e3cba6ddb704392935e076a7e744d.png);
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    list-style: none;
+    margin-left: 0.6em;
+    margin-bottom: 0.4em;
+    padding-left: 0.9em
+}
+
+@media (min-width: 641px) {
+    #global-breadcrumbs li {
+  
+        line-height: 1.25
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 20 / 10),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+    #global-breadcrumbs li {
+        background-image: url(https://assets.publishing.service.gov.uk/static/separator-2x-0f5dd845e8ede886d52af9a928c22a3d3126c036afaf8459f398d28af04f96e6.png);
+        background-size: 6px 11px
+    }
+}
+
+#global-breadcrumbs li:first-child {
+    background-image: none;
+    margin-left: 0;
+    padding-left: 0
+}
+
+#global-breadcrumbs a {
+    color: #0b0c0c
+}
+
+
+
+#global-breadcrumb {
+    max-width: 1020px;
+    margin: 0 auto;
+    z-index: 50;
+    float:left;
+    width:100%;
+    padding:3px 0 32px 0;
+    }
+
+@media (max-width: 640px) {
+    #global-breadcrumb {
+        padding: 0 1em
+    }
+}
+
+#global-breadcrumb ol {
+    max-width: 960px;
+    margin: .0.4em 0 0 0;
+   
+}
+
+@media (max-width: 640px) {
+    #global-breadcrumb ol {
+        margin: 0
+        }
+    }
+
+#global-breadcrumb ol li {
+    font-size: 0.7em;
+    line-height: 1.14286;
+    font-weight: 400;
+    text-transform: none;
+    font-size-adjust: 0.5;
+    background-image: url(https://assets.publishing.service.gov.uk/static/separator-871ef28abf1920b1b8050934ebec4366c18e3cba6ddb704392935e076a7e744d.png);
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    float: left;
+    list-style: none;
+    margin-left: 0;
+    margin-right: 0.5em;
+    padding-right: 1em
+    }
+
+@media (min-width: 641px) {
+    #global-breadcrumb ol li {
+        font-size: 0.9em;
+        line-height: 1.25
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 20 / 10),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+    #global-breadcrumb ol li {
+        background-image: url(https://assets.publishing.service.gov.uk/static/separator-2x-0f5dd845e8ede886d52af9a928c22a3d3126c036afaf8459f398d28af04f96e6.png);
+        background-size: 6px 11px
+    }
+}
+
+#global-breadcrumb ol li a {
+    text-decoration:none;
+    font-size:0.9em;
+
+    }
+
+#global-breadcrumb ol li a:hover {
+    color: #FF9933;
+    text-decoration:underline;
+    }
+
+
+
+#global-breadcrumb ol li strong {
+    font-weight: normal
+    }
+
+#global-breadcrumb ol li:last-child {
+    background-image: none;
+    margin-right: 0;
+    font-size:0.8em;
+    position:relative;
+    top:1px
+    }   
+
+.no-breadcrumb {
+    padding-top:48px;
+
+    }

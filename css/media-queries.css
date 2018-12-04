@@ -1,0 +1,19 @@
+
+
+@media screen and (device-aspect-ratio: 375/667)
+ { 
+/* iPHONE SIX  */
+    .column-four-fifths,.column-three-fifths,.column-two-fifths,.hero{
+        width:90%;
+        margin:0 auto;
+        float:none;
+        }
+    .mainnav{
+        width:90%;
+        margin:0 auto;
+        float:none;
+        }
+
+
+}
+

@@ -1,0 +1,146 @@
+table.articles-table tr td  {
+    padding:12px;
+    }
+
+table.articles-table tr th  {
+    padding:12px;
+    font-size:1em;
+    color:#444
+    }
+
+
+tr:nth-child(even) {
+    background: #F4F4F4;
+    color:white;
+    }
+
+.coming-soon {
+    display: block;
+    padding: 3px 0 4px 22px !important;
+    color:#4F4F4F;
+    background-color:#F2F2F2;
+    margin-bottom:8px;
+    font-size:0.9em;
+    }
+
+.article {
+    display: block;
+    padding: 3px 0 3px 22px !important; 
+    margin-bottom:4px;
+    font-size:0.9em;
+}
+
+.article a:hover{
+    color:#a03a88;
+    }
+
+.article a{
+    color:#0000FF;
+    }
+
+.coming-soon span {  
+    color:#888;
+    }
+
+.article:before { 
+    content: "";
+    border-color: transparent #220022;
+    border-style: solid;
+    border-width: 0.10em 0 0.10em 0.30em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.8em;
+    position: relative;
+    }
+
+.section-list{ 
+    list-style-type: decimal !important; 
+    width: 100%;
+    float:left;
+    padding-bottom:28px;
+    border-bottom:1px solid #888;
+    margin-bottom:34px;
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 10px;
+    }
+
+
+.section-list LI{ 
+    margin-bottom:12px;
+    color:#0000FF !important;
+    margin-left:20px;
+    margin-left:30px;
+    line-height:1.1em;
+    font-size:0.9em;
+    }
+
+  
+.section-list LI a{   
+    color:#0000FF !important;
+    }
+
+.section-list LI a:hover{ 
+    color:#a03a88 !important
+    }
+
+
+  .section-list-wrapper{
+    margin-bottom: 1em;
+    }
+
+h2.article-title{
+    color:#26002E;
+    font-size:1.5em;
+    margin:0 0 6px 0 !important;
+    position:relative;
+    top:26px;
+    float:left;
+    width:100%;
+    }
+
+
+.section-text ul, .section-text ol{
+    list-style-type:disc;
+    margin:30px 50px 36px 70px;
+    }
+
+.section-text ul li, .section-text ol li{
+    margin-bottom:12px;
+    }
+
+.section-text{
+    width:100%;
+    float:left;
+    margin-top:30px;
+    margin-bottom:32px;
+    }
+
+
+a.prev-page, a.next-page {
+    width:190px;
+    background-color: #A03A88;
+    color: #FFFFFF;
+    }
+
+a.prev-page .pagination-part-title {
+    float: left;
+    }
+
+a.next-page .pagination-part-title {
+    float: right;
+    }
+
+.global-breadcrumb, .group{
+    background-color:white;
+    }
+
+#guideid H4{
+    font-size:1.2em;
+    margin:36px 0 12px 0;
+    }

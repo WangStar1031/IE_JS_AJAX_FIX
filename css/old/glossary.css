@@ -1,0 +1,51 @@
+#glossary-definition{
+    background-color: lightgray; 
+    padding: 15px 25px 15px 25px; 
+    margin:4px 15px 38px 15px;
+}
+
+#glossary-definition h2 {
+    font-size:1.4em;
+    margin-bottom:14px;
+    }
+
+.info-glossary {
+    margin-bottom:14px;
+    font-size:0.8em;
+    margin-top:0px;
+    margin-left:12px;
+    }
+
+.banner-block{
+    margin-top:20px !important;
+    }
+
+.glossary h2{
+    font-size:36px;
+    font-weight:300;
+    margin-top:80px;
+    margin-bottom:10px;
+     float:left;
+    width:30px;
+    height:30px;
+}
+
+.glossary table th{
+    width:25%;
+}
+
+.glossary table th, .glossary table td{ 
+    font-size:14px;
+}
+
+.glossary-jump{
+    list-style:none; 
+}
+
+.glossary-jump li{
+    float:left;
+    margin:0 12px;
+    font-size:20px;
+}
+
+

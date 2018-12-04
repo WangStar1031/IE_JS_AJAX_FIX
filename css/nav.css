@@ -1,0 +1,114 @@
+
+.navigation-container{
+	width:100%;
+	background-color:#ffffff;
+	padding:0;
+  margin-top:-2px;
+  
+	}
+
+
+
+  /* Add a black background color to the top navigation */
+.mainnav {
+    background-color: #fff;
+    xoverflow: hidden;
+    width:100%;
+    xmargin-left:-40px;
+}
+
+/* Style the links inside the navigation bar */
+.mainnav .main-link {
+    float: left;
+    display: block;
+    color: #333333;
+    text-align: center;
+    padding: 12px 0 12px 0;
+    text-decoration: none;
+    font-size: 18px;
+    width:12%;
+    font-weight:bold;
+     -o-transition:color 0.3s ease-out, background 0.3s ease-in;
+  -ms-transition:color 0.3s ease-out, background 0.3s ease-in;
+  -moz-transition:color 0.3s ease-out, background 0.3s ease-in;
+  -webkit-transition:color 0.3s ease-out, background 0.3s ease-in;
+  /* ...and now for the proper property */
+  transition:color 0.3s ease-out, background 0.3s ease-in;
+}
+
+/* Change the color of links on hover */
+.mainnav .main-link:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.mainnav .icon {
+    display: none;
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .mainnav .main-link {display: none;}
+  .mainnav a.icon {
+    float: left;
+    display: block;
+    width:100%;
+    text-align:center;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .mainnav.responsive {position: relative;}
+  .mainnav.responsive a.icon {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  .mainnav.responsive .main-link {
+    float: none;
+    display: block;
+    text-align: center;
+    width:100%
+
+  }
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 24px 12px 24px 24px;
+    z-index: 1000000;
+    text-align:left;    
+    }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a{
+        display:block;
+        margin-bottom:12px;
+        width:100%;
+        float:left;
+        color:#333333
+        }
+
+
+.dropdown .dropdown-content a{
+       font-size:14px;
+        }
+
+
+.hide{display:none !important}

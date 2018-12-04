@@ -1,0 +1,59 @@
+
+.email-readonly{
+    border:none !important;
+}
+
+
+
+.profile-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size:1.1em;
+    margin-top:40px;
+    border-bottom:1px solid #CDCDCD;
+    margin-bottom:24px;
+}
+
+.profile-table th, .profile-table td {
+    text-align: left;
+    padding: 12px;
+}
+
+.profile-table tr:nth-child(even){
+    background-color: #EEEEEE;width:100%;
+    }
+
+.profile-form {
+    margin-top:40px;
+}
+
+ #department-non-lawyers {
+     display:none;
+     border:1px solid red;
+ }
+
+.profile-message {
+    width:60%;
+    font-size:0.8em;
+    color:#000000;
+    position:relative;
+    top:22px;
+    font-weight:600;
+    border:1px dotted #BDBDBD;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:12px;
+    padding-bottom:12px;
+}
+
+.profile-message a {
+    text-decoration:underline;
+}
+
+.profile-message-container {
+
+}
+
+.profile .form-group {
+    padding:0 0 12px 0;
+}

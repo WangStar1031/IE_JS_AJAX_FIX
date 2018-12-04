@@ -1,0 +1,62 @@
+.cookie-table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top:24px;
+    margin-bottom:24px;
+    float:left;
+}
+
+.cookie-table td, .cookie-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.cookie-table tr:nth-child(even){background-color: #f2f2f2;}
+
+
+.cookie-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #330033;
+    color: white;
+    font-weight:300;
+}
+
+
+.cookie-table td {
+    font-size:14px;
+
+}
+
+.margin-up H3 {
+    margin:24px 0 0 0;
+}
+
+.margin-up H4 {
+    margin:16px 0 0 0;
+}
+
+.margin-up UL.para-list {
+    margin:16px 0 0 24px;
+}
+
+.margin-up section p {
+    margin-bottom:0px !important;
+    margin-top:12px;
+    padding-bottom:0 !important;
+}
+
+ .margin-up section {
+    margin-top:16px;
+    float:left;
+    width:100%
+    }
+
+.cookie-table ul {
+    list-style-type:disc;
+    margin-left:18px;
+    margin-top:12px; 
+    margin-bottom:0px;
+    }

@@ -1,0 +1,32 @@
+
+.article {
+    display: block;
+    padding: 3px 0 3px 22px !important; 
+    margin-bottom:4px;
+    font-size:0.9em;
+}
+
+.article a:hover{
+    color:#a03a88;
+    }
+
+.article a{
+    color:#0000FF;
+    }
+
+.coming-soon span {  
+    color:#888;
+    }
+
+.article:before { 
+    content: "";
+    border-color: transparent #220022;
+    border-style: solid;
+    border-width: 0.10em 0 0.10em 0.30em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.8em;
+    position: relative;
+    }

@@ -1,0 +1,84 @@
+/*====================================================
+	- {Keyworder} stylesheet
+=====================================================*/
+
+/* Dictionaries styles
+* ----------------------------------------------------------------*/
+@import "../dictionaries/file-extensions/file-extensions.css";
+/* ---------------------------------------------------------------*/
+
+.kwd-grey{
+	background-color: #A7A7A8;
+	color: #fff;
+	text-shadow: 1px 1px #333;
+	text-decoration: none;
+    border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px; 
+	-webkit-border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+    padding: 0 5px 0 5px;
+	cursor: help;
+}
+
+.kwd-green{
+	background-color: #DFF0D8;
+    border: 1px solid #8DCA73;
+	text-decoration: none;
+    border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px; 
+	-webkit-border-radius: 4px 4px 4px 4px;
+    display: inline-block;
+    padding: 0 3px 0 3px;
+	cursor: help;
+}
+
+.kwd-blue{
+	background-color: #D9EDF7;
+    border: 1px solid #99CFEA;
+	text-decoration: none;
+    border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px; 
+	-webkit-border-radius: 4px 4px 4px 4px;
+    /*display: inline-block;*/
+    padding: 0 3px 0 3px;
+	cursor: help;
+}
+
+.kwd-yellow{
+	background-color: #FFFF99;
+    border: 1px solid #FFCC99;
+	text-decoration: none;
+    border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px; 
+	-webkit-border-radius: 4px 4px 4px 4px;
+    display: inline-block;
+    padding: 0 3px 0 3px;
+	cursor: help;
+}
+
+.kwd-gld, a.kwd-gld:link, a.kwd-gld:visited{
+	border-bottom:1px dotted #777;
+	text-decoration: none;
+	color:inherit;
+}
+
+.kwd-definition { font-style: italic; cursor: text; }
+
+.kwdt { cursor: text; }
+
+acronym.kwdt{ font-weight:bold; }
+
+/* jQuery Tipsy tooltips style
+----------------------------------------------------------------------------------------------------*/
+.tipsy { padding: 5px; font-size: 12px; position: absolute; z-index: 100000; }
+.tipsy-inner { padding: 5px 8px 4px 8px; background-color: black; color: white; max-width: 200px; min-width: 30px; min-height: 10px; text-align: center; }
+.tipsy-inner { border-radius: 3px; -moz-border-radius:3px; -webkit-border-radius:3px; opacity: 0.90; filter: alpha(opacity=85); }
+.tipsy-arrow { position: absolute; background:url(tipsy.gif) bottom left no-repeat; width: 9px; height: 5px; }
+.tipsy-n .tipsy-arrow { top: 0; left: 50%; margin-left: -4px; }
+.tipsy-nw .tipsy-arrow { top: 0; left: 10px; }
+.tipsy-ne .tipsy-arrow { top: 0; right: 10px; }
+.tipsy-s .tipsy-arrow { bottom: 0; left: 50%; margin-left: -4px; background-position: bottom left; }
+.tipsy-sw .tipsy-arrow { bottom: 0; left: 10px; background-position: bottom left; }
+.tipsy-se .tipsy-arrow { bottom: 0; right: 10px; background-position: bottom left; }
+.tipsy-e .tipsy-arrow { top: 50%; margin-top: -4px; right: 0; width: 5px; height: 9px; background-position: top right; }
+.tipsy-w .tipsy-arrow { top: 50%; margin-top: -4px; left: 0; width: 5px; height: 9px; }

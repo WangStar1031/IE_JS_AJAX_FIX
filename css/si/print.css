@@ -1,0 +1,91 @@
+@media print {
+
+	/* exclude procedure 
+	[data-print='false'] {
+		visibility: hidden !important;
+		display: none !important;
+	}
+*/
+	body {
+		padding: 0 20px;
+	}
+
+	.si-timetable-intro {
+		-margin-top: 80px;
+	}
+
+	.question-body .recommendations {
+		-margin-top: -80px;
+	}
+
+	.validation {
+		float: none;
+		position: relative;
+		left: 0;
+	}
+	.answer-list {
+		position: relative;
+		top: -35px;
+	}
+	.si-table {
+		
+	}
+	.printable .si-table,#print-table,#print-guide-table {
+		visibility: hidden !important;
+		display: none !important;
+	}
+    
+	 .si-table .quantity-up,
+	 .si-table .quantity-down {
+		visibility: hidden !important;
+		display: none !important;
+	}
+
+	.step-anchor {
+		display:none !important;
+	}
+
+	.prt-guide-btn {display:none}
+
+	.info-button{display:none !important}
+
+	.si-step-anchor ul.answer-list {display:none}
+
+	/*
+	body.print-mode *:not(body .printable, body .printable *) {
+		visibility: hidden !important;
+		display: none !important;
+	}
+	body.print-mode .sw-toolbar {
+		visibility: hidden !important;
+		display: none !important;
+	}
+	body.print-mode #smartwizard,
+	body.print-mode #global-header,
+	body.print-mode .topnav,
+	body.print-mode #footer,
+	body.print-mode .header-bar,
+	body.print-mode .quantity-up,
+	body.print-mode .quantity-down {
+		visibility: hidden !important;
+		display: none !important;
+	}
+
+	body.print-mode .quantity.zero-value:after {
+		display: none;
+	}*/
+
+	.recommendations{
+    -top:-166px;
+    }
+
+	.recommendations label {
+		border-bottom:1px solid #343434;
+	}
+
+	td.stage[rowspan] {
+		border-bottom:4px solid #333 !important;
+	}
+}
+
+

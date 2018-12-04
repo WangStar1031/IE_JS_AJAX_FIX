@@ -1,0 +1,76 @@
+.button {
+  display: inline-block;
+padding: 0.6em 2.4em;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    appearance: none;
+  margin: 1.1em 0 0 0;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 0;
+  color: #ffffff;
+  background-color: #009999;
+  xtext-shadow: -1px 1px #417cb8;
+  border: none;
+  float:right;
+}
+
+.button:focus {
+  outline: none
+}
+
+
+.button:hover,
+.flat button.hover {
+  background-color: #009999;
+  xtext-shadow: -1px 1px #27496d;
+}
+
+ button:active,
+ button.active {
+  background-color: #009999;
+  xtext-shadow: -1px 1px #193047;
+}
+
+.black{ background-color:#000000;
+        color:#ffffff
+        }
+
+
+.white{ background-color:#ffffff;
+        color:#000000
+        }
+
+.button-div {
+  width:50%;
+  float:left;
+}
+
+
+.next {
+    text-align:right
+    }
+
+
+.edit-button-container{
+    position:relative;
+    left:8%;
+  }
+
+.improve-page-button{
+  background-color:#337ab7;
+  width:100%;
+  float:left;
+   padding:8%;
+   margin-top:24px;
+   border-top:8px solid #343434;
+}
+
+.improve-page-button a {
+  color:#ffffff !important;
+  font-size:1.1em;
+}
+
+
+
+

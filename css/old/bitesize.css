@@ -1,0 +1,337 @@
+@-ms-viewport {
+    width: device-width
+}
+
+@-o-viewport {
+    width: device-width
+}
+
+#whitehall-wrapper .attachment:after,
+#whitehall-wrapper .available-languages ul:after,
+#whitehall-wrapper .collection-list:after,
+#whitehall-wrapper .collection-list.one-column .collection-item:after,
+#whitehall-wrapper .document-list .document-row ul:after,
+#whitehall-wrapper .document-share-links:after,
+#whitehall-wrapper .documents-grid .inner-block:after,
+#whitehall-wrapper .headings-block:after,
+#whitehall-wrapper .filtered-index .filter-results-block .filter-results-summary:after,
+#whitehall-wrapper .govspeak .contact:after,
+#whitehall-wrapper .heading-block:after,
+#whitehall-wrapper .heading-block section:after,
+#whitehall-wrapper .metadata-list:after,
+#whitehall-wrapper .organisation-news article.first .content:after,
+#whitehall-wrapper .organisation-news.items-2:after,
+#whitehall-wrapper .person-excerpt .inner:after,
+#whitehall-wrapper .worldwide-organisation-header .metadata dl:after,
+#whitehall-wrapper .consultation .consultation-block:after,
+#whitehall-wrapper .corporate-information-pages-show-worldwide-organisation .main-body .contact-us:after,
+#whitehall-wrapper .get-involved .floated-children section:after,
+#whitehall-wrapper .get-involved .floated-children section .consultation-lists .consultation-closing-soon .document-list .attributes:after,
+#whitehall-wrapper .histories-show .virtual-tour:after,
+#whitehall-wrapper .inside_gov_how-gov-works .thirds-width-section:after,
+#whitehall-wrapper .inside_gov_how-gov-works .halves-width-section:after,
+#whitehall-wrapper .inner-block.floated-children:after,
+#whitehall-wrapper .ministers-index .ministers-by-organisation section:after,
+#whitehall-wrapper .organisations-index .page-header:after,
+#whitehall-wrapper .organisations-index .department:after,
+#whitehall-wrapper .organisations-show .what-we-do .uk-aid:after,
+#whitehall-wrapper .organisations-show .org-contacts .contact:after,
+#whitehall-wrapper .organisations-show .organisation-news:after,
+#whitehall-wrapper .organisations-external .page-header:after,
+#whitehall-wrapper .organisations-show-promotional .block:after,
+#whitehall-wrapper .wales-office .organisation-top-tasks .available-languages ul:after,
+#whitehall-wrapper .people-show .inner-block:after,
+#whitehall-wrapper .topics-show .featured-news:after,
+#whitehall-wrapper .world-locations-index .world-locations .world-location-type:after,
+#whitehall-wrapper .world-locations-show .world-organisations .worldwide-organisation:after,
+#whitehall-wrapper .worldwide-organisations-show .about-block:after,
+#whitehall-wrapper .worldwide-organisations-show .contact-us .contact.main .content:after,
+#whitehall-wrapper .topical-events-show .featured-news:after,
+#whitehall-wrapper .topical-events-show .page-description:after,
+#whitehall-wrapper .topical-events-show .page-description .description .social-media-accounts:after,
+#whitehall-wrapper .whitehall-content:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+
+#whitehall-wrapper .headings-block {
+    margin-top: 0
+}
+
+#whitehall-wrapper .headings-block .heading,
+#whitehall-wrapper .headings-block .heading-with-extra {
+    padding: 15px 0
+}
+
+@media (min-width: 641px) {
+    #whitehall-wrapper .headings-block .heading,
+    #whitehall-wrapper .headings-block .heading-with-extra {
+        padding: 15px 0
+    }
+}
+
+#whitehall-wrapper .headings-block .heading h1,
+#whitehall-wrapper .headings-block .heading-with-extra h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.04167;
+    font-weight: 400;
+    text-transform: none;
+    font-weight: bold
+}
+
+@media (min-width: 641px) {
+    #whitehall-wrapper .headings-block .heading h1,
+    #whitehall-wrapper .headings-block .heading-with-extra h1 {
+        font-size: 36px;
+        line-height: 1.11111
+    }
+}
+
+#whitehall-wrapper .headings-block .heading .type,
+#whitehall-wrapper .headings-block .heading-with-extra .type,
+#whitehall-wrapper .headings-block .heading .type a,
+#whitehall-wrapper .headings-block .heading-with-extra .type a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.11111;
+    font-weight: 400;
+    text-transform: none;
+    color: #6f777b;
+    margin-bottom: 5px
+}
+
+@media (min-width: 641px) {
+    #whitehall-wrapper .headings-block .heading .type,
+    #whitehall-wrapper .headings-block .heading-with-extra .type,
+    #whitehall-wrapper .headings-block .heading .type a,
+    #whitehall-wrapper .headings-block .heading-with-extra .type a {
+        font-size: 27px;
+        line-height: 1.11111
+    }
+}
+
+@media (min-width: 641px) {
+    #whitehall-wrapper .headings-block .heading-with-extra {
+        float: left;
+        width: 66.66667%
+    }
+}
+
+#whitehall-wrapper .headings-block .heading-extra {
+    padding: 15px 0;
+    border-top: 10px solid #a03a88;
+    margin: 30px 0
+}
+
+@media (min-width: 641px) {
+    #whitehall-wrapper .headings-block .heading-extra {
+        padding: 15px 0;
+        float: right;
+        width: 33.33333%;
+        margin-top: 0
+    }
+}
+
+@media (max-width: 640px) {
+    #whitehall-wrapper .headings-block .heading-extra {
+        display: none;
+    }
+}
+
+#whitehall-wrapper .headings-block .heading-extra h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 700;
+    text-transform: none;
+    margin-top: 1.25em;
+    margin-bottom: 0.5em;
+}
+
+@media (min-width: 641px) {
+    #whitehall-wrapper .headings-block .heading-extra h3 {
+        margin-top: 0em;
+        margin-bottom: 0.83333em;
+    }
+}
+
+
+@media (min-width: 641px) {
+    #whitehall-wrapper .block {
+        width:75%;
+        float:right;
+    }
+}
+
+@media (max-width: 640px) {
+    #whitehall-wrapper .block {
+        width:100%;
+    }
+}
+
+
+/* CONTENTS CSS */
+#whitehall-wrapper .contextual-info {
+    position: relative;
+    clear: both;
+    padding-bottom: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.14286;
+    font-weight: 400;
+    text-transform: none;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+@media (min-width: 641px) {
+    #whitehall-wrapper .contextual-info {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}
+
+@media (max-width: 640px) {
+    #whitehall-wrapper .contextual-info {
+        padding-top: 6px;
+        padding-bottom: 4px;
+    }
+}
+
+#whitehall-wrapper .contextual-info nav {
+    overflow: hidden
+}
+
+#whitehall-wrapper .contextual-info a {
+    vertical-align: top
+}
+
+#whitehall-wrapper .contextual-info p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.14286;
+    font-weight: 400;
+    text-transform: none;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+@media (min-width: 641px) {
+    #whitehall-wrapper .contextual-block {
+        width:25%;
+        float:left;
+
+    }
+}
+
+@media (max-width: 640px) {
+    #whitehall-wrapper .contextual-block {
+        width:100%;
+    }
+}
+#whitehall-wrapper .contextual-info ol a {
+    display: block;
+    padding: 5px 0;
+    border-bottom: 1px solid #bfc1c3;
+}
+    border-top: 1px solid #bfc1c3;
+
+#whitehall-wrapper .contextual-info ol a {
+    display: block;
+    padding: 5px 0;
+    border-bottom: 1px solid #bfc1c3;
+}
+
+
+#whitehall-wrapper .metadata-list {
+    display: block;
+    margin-bottom: 30px
+}
+
+@media (min-width: 641px) {
+    #whitehall-wrapper .metadata-list {
+        float: left;
+        width: 66.66667%
+    }
+}
+
+#whitehall-wrapper .metadata-list dl {
+    display: inline;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.25;
+    font-weight: 400;
+    text-transform: none;
+    padding-top: 6px;
+    padding-bottom: 4px
+}
+
+@media (min-width: 641px) {
+    #whitehall-wrapper .metadata-list dl {
+        font-size: 14px;
+        line-height: 1.42857
+    }
+}
+
+@media (max-width: 640px) {
+    #whitehall-wrapper .metadata-list dl {
+        padding-top: 4px;
+        padding-bottom: 1px
+    }
+}
+
+#whitehall-wrapper .metadata-list dl dt {
+    float: left;
+    clear: left;
+    width: 8em
+}
+
+@media (min-width: 641px) {
+    #whitehall-wrapper .metadata-list dl dt {
+        width: auto;
+        min-width: 120px;
+        padding-right: 10px
+    }
+}
+
+#whitehall-wrapper .metadata-list dl dd {
+    float: left;
+    width: 60%
+}
+
+@media (min-width: 769px) {
+    #whitehall-wrapper .metadata-list dl dd {
+        width: 70%
+    }
+}
+
+
+#whitehall-wrapper .summary {
+    padding-bottom: 15px
+
+}
+
+@media (min-width: 641px) {
+    #whitehall-wrapper .summary {
+        padding-top: 15px;
+        padding-bottom: 45px
+    }
+}
+
+#whitehall-wrapper .summary p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: none
+}
+
+@media (min-width: 641px) {
+    #whitehall-wrapper .summary p {
+        font-size: 24px;
+        line-height: 1.25
+    }
+}

@@ -1,0 +1,79 @@
+.glossary-jump {
+    width:100%;
+    float:left;
+    margin-bottom:48px;
+
+    }
+
+
+.glossary-jump LI {
+    float: left;
+    height: 32px;
+    padding: 12px;
+    font-size: 1.6em;
+    text-align: center;
+    font-weight: 500;
+    }
+
+.glossary {
+    margin-top:0;
+    width:100%;
+    float:left;
+    }
+
+
+.glossary .definition-term{
+    font-size:1.5em;
+    margin-bottom:8px;
+    color:#444444;
+    }
+
+
+.glossary H2 {
+    width:98%;
+    float:left;
+    font-size:2.5em;
+    background-color:#EEEEEE;
+    padding:2%;
+    margin-bottom:16px;
+    }
+
+.glossary table {
+    margin:24px 0 24px 0;
+    width:100%;
+    float:left;
+    }
+
+
+.gloassary-wrapper {
+    width:100%;
+    float:left;
+    }
+
+#glossary-definition-wrapper{
+    float:left;
+    width:100%;
+    background-color:#F2F2F2;
+    }
+
+
+#glossary-definition{
+    float: left;
+    width: 90%;
+    padding-left: 5%;
+    padding-top:5%;
+    padding-bottom:5%;
+    }
+
+
+#glossary-definition H2{
+    font-size:1.5em;
+}
+
+.definition{
+    margin-bottom:32px;
+    font-size:14px;
+    
+    }
+
+.definition a{text-decoration:none;color:#333}

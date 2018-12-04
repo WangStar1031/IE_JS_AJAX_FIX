@@ -1,0 +1,49 @@
+
+
+.topics-list{
+    margin-top: 40px;
+    list-style-image: url(imaes/sqpurple.gif);
+    width: 100%;
+    float: left;
+    position: relative;
+    left: 60px;
+    }
+    
+.topics-list-container{
+    float:left;
+    width:100%;
+
+
+    }
+
+.topics-list li{
+    width: 22%;
+    margin: 0 123px 0 0;
+    float: left;
+    height: 140px;
+
+    }
+
+.topics-list li p{
+    line-height:1.1em;
+    font-size:0.9em;
+    margin-top:2px;
+    }
+
+   
+.topic-smalltext{
+    font-size:0.9em;
+    line-height: 1.3em;
+    width: 100%;
+    float: left;
+    border-top:1px solid #111111;
+    padding: 0.6em 0 0 0;
+    }
+
+
+.topics-list LI .count {
+    display:none;
+
+    }
+
+
